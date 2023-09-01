@@ -22,7 +22,7 @@ const subCategories = [
 ]
 
 const mensTShirts = [
-  { id: 1, name: 'Men\'s Classic White T-Shirt', price: 19.99, subcategoryId: 1 },
+  { id: 1, name: 'Men\'s Classic White T-Shirt', price: 19.99, subcategoryId: 1},
   { id: 2, name: 'Men\'s Graphic Print Tee', price: 24.99, subcategoryId: 1 },
   { id: 3, name: 'Men\'s V-Neck Cotton Shirt', price: 18.99, subcategoryId: 1 },
   { id: 4, name: 'Men\'s Striped Polo', price: 29.99, subcategoryId: 1 },
