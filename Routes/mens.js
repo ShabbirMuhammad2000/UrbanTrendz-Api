@@ -80,7 +80,7 @@ router.get('/sweaters', (req, res) => {
 router.get('/sweaters/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-  // Verify that a porduct with this ID exists in MensSweatpants
+  // Verify that a porduct with this ID exists in MensSweaters
   const product = mensSweaters.find((product) => product.id === productId)
 
   if(!product) {
@@ -98,7 +98,7 @@ router.get('/shoes', (req, res) => {
 router.get('/shoes/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-  // Verify that a porduct with this ID exists in MensSweatpants
+  // Verify that a porduct with this ID exists in Mensshoes
   const product = mensShoes.find((product) => product.id === productId)
 
   if(!product) {
@@ -115,7 +115,7 @@ router.get('/hats', (req, res) => {
 router.get('/hats/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-  // Verify that a porduct with this ID exists in MensSweatpants
+  // Verify that a porduct with this ID exists in Menshats
   const product = mensHats.find((product) => product.id === productId)
 
   if(!product) {

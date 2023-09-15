@@ -27,7 +27,7 @@ router.get('/shorts', (req, res) => {
 router.get('/shorts/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womenshorts
    const product = womensShorts.find((product) => product.id === productId);
 
    if (!product) {
@@ -44,7 +44,7 @@ router.get('/jeans', (req, res) => {
 router.get('/jeans/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womenjeans
    const product = womensJeans.find((product) => product.id === productId);
 
    if (!product) {
@@ -62,7 +62,7 @@ router.get('/sweatpants', (req, res) => {
 router.get('/sweatpants/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womensweatpants
    const product = womensSweatpants.find((product) => product.id === productId);
 
    if (!product) {
@@ -80,7 +80,7 @@ router.get('/sweaters', (req, res) => {
 router.get('/sweaters/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womensweaters
    const product = womensSweaters.find((product) => product.id === productId);
 
    if (!product) {
@@ -99,7 +99,7 @@ router.get('/hats', (req, res) => {
 router.get('/hats/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womenhats
    const product = womensHats.find((product) => product.id === productId);
 
    if (!product) {
@@ -117,7 +117,7 @@ router.get('/shoes', (req, res) => {
 router.get('/shoes/:id', (req, res) => {
   const productId = parseInt(req.params.id)
 
-   // Verify that a product with this ID exists in womenTShirts
+   // Verify that a product with this ID exists in womenshoes
    const product = womensShoes.find((product) => product.id === productId);
 
    if (!product) {
